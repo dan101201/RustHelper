@@ -1,0 +1,43 @@
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:minWidth="25px"
+        android:minHeight="25px">
+
+    </android.support.design.widget.AppBarLayout>
+    <Button
+        android:layout_marginTop="50dp"
+        android:text="@string/save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/button1" />
+    <Button
+        android:layout_marginTop="80dp"
+        android:text="@string/test"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/button2" />
+    <Button
+        android:layout_marginTop="140dp"
+        android:text="@string/permission"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/button3" />
+    
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:id="@+id/editText1" />
+    <include layout="@layout/content_main" />
+
+</android.support.design.widget.CoordinatorLayout>

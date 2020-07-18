@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RustNotificationListener</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="test">Test</string>
+    <string name="permission">Give Permission</string>
+</resources>
